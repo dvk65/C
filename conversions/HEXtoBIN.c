@@ -5,7 +5,7 @@ char hex[17], bin[65] = "";
 int i = 0;
 printf("Enter hex number: ");
 gets(hex);
-for(1=0; hex[i]!='\0'; i++){
+for(i=0; hex[i]!='\0'; i++){
 switch(hex[i]){
 case '0':
 strcat(bin, "0000");
@@ -38,7 +38,7 @@ case '9':
 strcat(bin, "1001");
 break;
 case 'a':
-case 'A'
+case 'A':
 strcat(bin, "1010");
 break;
 case 'b':
@@ -50,7 +50,7 @@ case 'C':
 strcat(bin, "1100");
 break;
 case 'd':
-case 'D'
+case 'D':
 strcat(bin, "1101");
 break;
 case 'e':
